@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Ecommerce UI</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-sm">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold">
+                INDERSOLE
+            </a>
+
+            <!-- Navigation Links -->
+            <div class="hidden items-center gap-6 md:flex">
+                <a href="#" class="text-sm hover:text-red-500">Home</a>
+                <a href="#" class="text-sm hover:text-red-500">Products</a>
+                <a href="#" class="text-sm hover:text-red-500">Services</a>
+                <a href="#" class="text-sm hover:text-red-500">About Us</a>
+                <a href="#" class="text-sm hover:text-red-500">News</a>
+                <a href="#" class="text-sm hover:text-red-500">Contact</a>
+            </div>
+
+            <!-- Icons -->
+            <div class="flex items-center gap-4">
+                <button aria-label="Search">🔍</button>
+                <button aria-label="Account">👤</button>
+                <button aria-label="Shopping cart">🛒</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section: We will build this next -->
+
+    
+    <!-- Hero Section -->
+    <main>
+        <section class="flex min-h-[500px] flex-col items-center justify-between gap-8 bg-gray-100 px-6 py-12 md:flex-row md:px-12 lg:px-20">
+
+            <!-- Left Side: Text Content -->
+            <div class="w-full space-y-5 text-center md:w-1/2 md:text-left">
+
+                <p class="text-sm font-semibold uppercase tracking-widest text-gray-500">
+                    New Season
+                </p>
+
+                <h1 class="text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl">
+                    Brand New
+                    <span class="block">Collection</span>
+                </h1>
+
+                <p class="mx-auto max-w-md text-base leading-7 text-gray-600 md:mx-0">
+                    Discover our latest collection and find your perfect style.
+                    Quality fashion designed for everyday comfort.
+                </p>
+
+                
+                <div class="flex items-center gap-6">
+
+                    <!-- First item -->
+                    <div class="flex items-center gap-2">
+                        <span class="flex h-5 w-5 items-center justify-center rounded-full bg-black text-white text-xs">
+                            ✓
+                        </span>
+                        <span>Top Brands</span>
+                    </div>
+
+                    <!-- Second item -->
+                    <div class="flex items-center gap-2">
+                        <span class="flex h-5 w-5 items-center justify-center rounded-full bg-black text-white text-xs">
+                            ✓
+                        </span>
+                        <span>High Quality</span>
+                    </div>
+
+                    <!-- Third item -->
+                    <div class="flex items-center gap-2">
+                        <span class="flex h-5 w-5 items-center justify-center rounded-full bg-black text-white text-xs">
+                            ✓
+                        </span>
+                        <span>Free Delivery</span>
+                    </div>
+
+                </div>
+
+
+                <a href="#products"
+                class="inline-block rounded bg-red-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-600">
+                    EXPLORE SHOP
+                </a>
+
+            </div>
+
+            <!-- Right Side: Hero Image -->
+            <div class="w-full md:w-1/2">
+                <img
+                    src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1000&q=80"
+                    alt="Fashion clothing collection"
+                    class="h-[300px] w-full rounded-lg object-cover md:h-[400px] lg:h-[450px]"
+                />
+            </div>
+
+        </section>
+
+        <section class="flex min-h-[200px] w-full items-center justify-center bg-black px-6 md:px-12 lg:px-20">
+            <div class="flex w-full justify-around p-4 text-white">
+                <div class="flex flex-col items-center">
+                    <span>✓</span>
+                    <p>Design</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span>★</span>
+                    <p>Quality</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span>⚙</span>
+                    <p>Development</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- New Arrivals Section -->
+    <section id="products" class="mx-auto max-w-7xl px-6 py-16">
+
+        <!-- Section Heading -->
+        <div class="mb-8 flex items-center justify-between">
+            <div>
+                <p class="mb-2 text-sm text-gray-500">
+                    Discover our latest products
+                </p>
+                <h2 class="text-2xl font-bold md:text-3xl">
+                    New Arrivals
+                </h2>
+            </div>
+
+            <a href="#" class="text-sm font-semibold hover:text-red-500">
+                View All →
+            </a>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+
+            <!-- Product 1 -->
+            <div class="overflow-hidden rounded-lg bg-gray-50 p-3 transition hover:shadow-lg md:p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=600&q=80"
+                    alt="Classic baseball cap"
+                    class="h-36 w-full object-cover md:h-52"
+                />
+
+                <div class="mt-4">
+                    <p class="text-sm text-amber-500">★★★★☆</p>
+                    <h3 class="mt-2 font-semibold">Classic Cap</h3>
+                    <p class="mt-1 text-sm text-gray-600">$19.99</p>
+                    <button class="mt-3 w-full rounded bg-red-500 px-3 py-2 text-sm text-white hover:bg-red-600">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="overflow-hidden rounded-lg bg-gray-50 p-3 transition hover:shadow-lg md:p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+                    alt="Casual sneaker"
+                    class="h-36 w-full object-cover md:h-52"
+                />
+
+                <div class="mt-4">
+                    <p class="text-sm text-amber-500">★★★★★</p>
+                    <h3 class="mt-2 font-semibold">Casual Sneakers</h3>
+                    <p class="mt-1 text-sm text-gray-600">$49.99</p>
+                    <button class="mt-3 w-full rounded bg-red-500 px-3 py-2 text-sm text-white hover:bg-red-600">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="overflow-hidden rounded-lg bg-gray-50 p-3 transition hover:shadow-lg md:p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
+                    alt="Classic t-shirt"
+                    class="h-36 w-full object-cover md:h-52"
+                />
+
+                <div class="mt-4">
+                    <p class="text-sm text-amber-500">★★★★☆</p>
+                    <h3 class="mt-2 font-semibold">Classic T-Shirt</h3>
+                    <p class="mt-1 text-sm text-gray-600">$24.99</p>
+                    <button class="mt-3 w-full rounded bg-red-500 px-3 py-2 text-sm text-white hover:bg-red-600">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="overflow-hidden rounded-lg bg-gray-50 p-3 transition hover:shadow-lg md:p-4">
+                <img
+                    src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80"
+                    alt="Fashion sunglasses"
+                    class="h-36 w-full object-cover md:h-52"
+                />
+
+                <div class="mt-4">
+                    <p class="text-sm text-amber-500">★★★★★</p>
+                    <h3 class="mt-2 font-semibold">Retro Sunglasses</h3>
+                    <p class="mt-1 text-sm text-gray-600">$14.99</p>
+                    <button class="mt-3 w-full rounded bg-red-500 px-3 py-2 text-sm text-white hover:bg-red-600">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 px-6 py-12 text-white">
+
+        <!-- Footer Content -->
+        <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+
+            <!-- Brand Information -->
+            <div>
+                <h2 class="mb-4 text-2xl font-bold">
+                    INDERSOLE
+                </h2>
+
+                <p class="max-w-xs text-sm leading-6 text-gray-400">
+                    Discover your style with our latest fashion collections.
+                    Quality products designed for everyday comfort.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="mb-4 text-lg font-semibold">
+                    Quick Links
+                </h3>
+
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li>
+                        <a href="#" class="transition hover:text-white">Home</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="transition hover:text-white">Products</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Customer Support -->
+            <div>
+                <h3 class="mb-4 text-lg font-semibold">
+                    Customer Support
+                </h3>
+
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li>
+                        <a href="#" class="transition hover:text-white">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">Shipping Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">Returns & Refunds</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div>
+                <h3 class="mb-4 text-lg font-semibold">
+                    Follow Us
+                </h3>
+
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li>
+                        <a href="#" class="transition hover:text-white">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:text-white">YouTube</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="mx-auto mt-10 max-w-7xl border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+            <p>&copy; 2026 INDERSOLE. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+</html>
